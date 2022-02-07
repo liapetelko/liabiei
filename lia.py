@@ -12,4 +12,7 @@ if (kidsBool):
 
 hotel = st.selectbox("Hotel?", ["RB","KS","SP","LAG","RIV","ROG"])
 
-#Some upgrades..
+#Some upgrades.. Nc, maybe flights.. single in dironit
+
+total = (end-start) * 1000 
+st.success("Total: "+total)
