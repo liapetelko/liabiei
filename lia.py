@@ -6,7 +6,7 @@ end = int(st.selectbox("Enter the end", [10,11,12,13,14,15,16,17,18,19,20]))
 adults = int(st.selectbox("Adults?",[1,2,3,4]))
 
 kidsBool = st.button("Press if wanna add Kids / Babies")
-if (kidsBool):
+while (kidsBool):
     kids = int(st.selectbox("Kids?",[0,1,2,3,4]))
     babies = int(st.selectbox("Babies?",[0,1,2,3,4]))
 
